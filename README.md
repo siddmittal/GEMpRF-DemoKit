@@ -1,5 +1,7 @@
 # GEMpRF Demo
 
+Licensed under the BSD 3-Clause License — see `LICENSE`.
+
 This repository provides a minimal demo and utilities for running the GEMpRF analysis
 pipeline on a small example dataset. It includes an example configuration, demo
 stimuli and helper utilities to make running the demo easier on different systems.
