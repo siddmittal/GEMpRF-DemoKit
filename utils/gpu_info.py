@@ -15,7 +15,7 @@ that GPU info cannot be obtained.
 The `analyze_gpus` function summarizes available GPUs and evaluates whether
 they have enough memory to hold the model signals described by the user.
 """
-from __future__ import annotations
+
 import os
 import subprocess
 import shutil
