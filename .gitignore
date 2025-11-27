@@ -3,3 +3,5 @@ sample_configs/temp_user_configs/
 
 # Ignore all GEM-pRF analysis outputs
 example_data/derivatives/prfanalyze-gem/
+
+__pycache__/
