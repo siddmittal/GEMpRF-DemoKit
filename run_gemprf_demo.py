@@ -8,7 +8,7 @@
 
 import gemprf as gp
 
-CONFIG_FILEPATH = r"D:/GEMpRF_Demo/sample_configs/example-001_runtype-individual_input-bids_desc-analyse-prfprepare-data.xml"
+CONFIG_FILEPATH = r"D:/GEMpRF-DemoKit/sample_configs/example-001_runtype-individual_input-bids_desc-analyse-prfprepare-data.xml"
 
 if __name__ == "__main__":
     interactively_choose_config_file = True

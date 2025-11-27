@@ -87,7 +87,7 @@
 
     <!-- OR, make Bids False and specify directly single/multiple filepaths -->
     <fixed_paths>
-      <stimulus_filepath>D:/GEMpRF_Demo/example_data/stimuli/task-bar_apertures.nii.gz</stimulus_filepath>
+      <stimulus_filepath>D:/GEMpRF-DemoKit/example_data/stimuli/task-bar_apertures.nii.gz</stimulus_filepath>
       <measured_data_filepath comment="Add one or more measured-data filepaths here. Use a separate filepath block for each entry.">
         <filepath>path/to/data/tests/gem_generic_test/BIDS/sub-001/ses-3n2/func/sub-001_ses-3n2_task-prf_acq-normal_run-01_bold.nii.gz</filepath>
         <filepath>path/to/data/tests/gem_generic_test/BIDS/sub-001/ses-3n2/func/sub-001_ses-3n2_task-prf_acq-normal_run-01_bold.nii.gz</filepath>

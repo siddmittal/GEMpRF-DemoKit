@@ -13,7 +13,7 @@
   <stimulus comment="Only in Nifti Format">
 
     <!-- File path for stimulus directory -->
-    <directory>D:/GEMpRF_Demo/example_data/stimuli</directory>	
+    <directory>D:/GEMpRF-DemoKit/example_data/stimuli</directory>	
     <visual_field>9</visual_field> <!-- Visual field Radius -->
     <width>101</width>
     <height>101</height>
@@ -31,7 +31,7 @@
 	<!-- Set to "True" if the input data is organized in BIDS format, select "individual" or "concatenated" run type -->
     <BIDS enable="True" run_type="individual" comment="options are individual/concatenated">
 	
-      <basepath>D:/GEMpRF_Demo/example_data</basepath>
+      <basepath>D:/GEMpRF-DemoKit/example_data</basepath>
       <append_to_basepath>derivatives, fmriprep</append_to_basepath>
 
       <!-- Directory name for results; backups created with timestamp if overwrite="True" -->
@@ -84,10 +84,10 @@
 
     <!-- OR, make Bids False and specify directly single/multiple filepaths -->
     <fixed_paths>
-      <stimulus_filepath>D:/GEMpRF_Demo/example_data/stimuli/task-bar_apertures.nii.gz</stimulus_filepath>
+      <stimulus_filepath>D:/GEMpRF-DemoKit/example_data/stimuli/task-bar_apertures.nii.gz</stimulus_filepath>
       <measured_data_filepath comment="Add one or more measured-data filepaths here. Use a separate filepath block for each entry.">
-        <filepath>D:/GEMpRF_Demo/example_data/derivatives/prfprepare/analysis-01/sub-001/ses-001/func/sub-001_ses-001_task-bar_run-01_hemi-L_bold.nii.gz</filepath>
-        <filepath>D:/GEMpRF_Demo/example_data/derivatives/prfprepare/analysis-01/sub-001/ses-001/func/sub-001_ses-001_task-bar_run-01_hemi-R_bold.nii.gz</filepath>
+        <filepath>D:/GEMpRF-DemoKit/example_data/derivatives/prfprepare/analysis-01/sub-001/ses-001/func/sub-001_ses-001_task-bar_run-01_hemi-L_bold.nii.gz</filepath>
+        <filepath>D:/GEMpRF-DemoKit/example_data/derivatives/prfprepare/analysis-01/sub-001/ses-001/func/sub-001_ses-001_task-bar_run-01_hemi-R_bold.nii.gz</filepath>
       </measured_data_filepath>
       <results>
 

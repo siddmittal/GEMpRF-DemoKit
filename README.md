@@ -1,4 +1,4 @@
-# GEMpRF Demo
+# GEMpRF-DemoKit
 
 Licensed under the BSD 3-Clause License — see `LICENSE`.
 
